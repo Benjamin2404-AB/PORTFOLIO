@@ -1,0 +1,104 @@
+.second{
+    height:700px;
+    width:100%;
+    margin-top:250px;
+    /*background-color:#ffffff;*/
+    border-radius:10px;
+    background-image:linear-gradient(rgb(0, 16, 19),#0c0c0cf2);
+    /*background-image:linear-gradient(rgb(4, 137, 106),rgb(4, 87, 48));*/
+   image-rendering: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: rgba(50,50,93,.25) 0px 50px 100px -20px, rgba(0,0,0,.3) 0px 30px 60px -30px;
+
+}
+.name{
+    font:30px Poppins;
+    color:white;
+    position:relative;
+    font-weight: 700;
+    padding: 50px 100px;
+    left:40px;
+    top:80px;
+    width:700px;
+    font-stretch: expanded;
+    
+    max-width: 700px;
+    
+}
+
+
+#skil{
+    font:15px Poppins;
+    color:white;
+    position:relative;
+    font-weight:600px;
+    padding: 20px 100px;
+    left:30px;
+    
+    width:600px;
+    font-stretch: expanded;
+}
+.second span{
+    color:#0EF6CC;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.ava  {
+    width:150px;
+    height:150px;
+    border-radius: 75px;
+    background-color: aqua;
+    position: relative;
+    top:-400px;
+    left:300px;
+}
+
+.ava img{
+    width:150px;
+    height:150px;
+    border-radius: 75px;
+    background-image:linear-gradient(rgb(30, 31, 31),rgb(16, 17, 17))
+    
+}
+.ava::after{
+    content: "";
+    position: absolute;
+    width:150px;
+    height:150px;
+    border-radius: 75px;
+    left:0px;
+    top:0px;
+	/*filter: blur(25px);*/
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgb(16, 17, 17,.4)) ;
+}
+.attributes{
+    margin-top: -500px;
+    margin-right: 150px;
+    float: right;
+    background-color:transparent;
+    width:600px;
+    height: 500px;
+  
+    
+}
+#skills{
+    display: block;
+    margin:0 auto;
+
+
+
+    
+}
+.attributes li{
+    list-style-type:none;
+    display: inline-block;
+    
+    margin: 10px;
+}
+#python3{
+    display: block;
+    margin-top: 30px;
+}
+
