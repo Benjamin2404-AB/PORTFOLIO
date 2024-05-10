@@ -12,10 +12,10 @@ function Navbar(){
     }
     return(
         <>
-            <div>
+            <div className='navBar' >
 
-                <nav>
-                        <div className="tabs" id={toggled ? "closed" : "open"}>
+                <nav id = {toggled ? "navopen" : ""   }>
+                        <div className="tabs" id={toggled ? "open" : "closed" }>
                             
                             <li>
                                 <Link to="#"><ul>Home</ul></Link>
@@ -32,7 +32,7 @@ function Navbar(){
                         <button onClick={handleToggledNavbar}
                 
                         >
-                            {toggled ?  <ReorderIcon/> :  <CloseIcon/>}
+                            {toggled ?  <CloseIcon/>: <ReorderIcon/>  }
                         </button>
 
                 </nav>

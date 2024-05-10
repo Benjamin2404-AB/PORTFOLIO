@@ -1,6 +1,7 @@
  .intro{
     position:absolute;
     height: 100vh;
+    width: 99vw;
     background-size: cover;
     background-image:linear-gradient(rgb(0, 16, 19,0.9),rgba(27, 34, 35, 1));
     image-rendering: auto;
@@ -10,7 +11,7 @@
     top: 5%;
     left: 0;
     background-repeat: no-repeat;
-    overflow-x: hidden;
+   
     width: 100%;
 
     /*background-color:#131616;
@@ -43,6 +44,7 @@
     margin: -30px 30px ;
     padding-left:50px;
     font-weight:500px;
+ 
 }
 
 .intro h1 span{
@@ -117,7 +119,7 @@
     .card {
         position: relative;
         
-        top:120px;
+        top:100px;
         width: 10%;
         height: 10%;
         margin-left: 50%;
