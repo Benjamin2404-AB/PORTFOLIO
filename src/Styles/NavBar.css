@@ -84,10 +84,11 @@ nav button{
         list-style: none;
         list-style-type:none;
         float: end;
-        width:60%;
-        height:500px;
+        width:900px;
+        width:79%;
+        height:120vh;
         transform: translateX(40%);
-        background-color: rgba(27, 34, 35, 0.998);
+        background-color: rgba(27, 34, 35, 0.831);
         margin-top: 50px;
     }
     #open{
@@ -119,8 +120,8 @@ nav button{
     nav button{
         display: block;
         transform: translateX(300px);
-        position: relative;
-        width: 10%;
+        position: absolute;
+        width: 13%;
         background-color:transparent;
         border:none;
         
