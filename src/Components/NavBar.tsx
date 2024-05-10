@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import '../Styles/NavBar.css'
 import CloseIcon from '@mui/icons-material/Close';
 import ReorderIcon from '@mui/icons-material/Reorder';
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/500.css";
+import "@fontsource/poppins/600.css";
+
 
 function Navbar(){
     const [toggled,setToggled] = useState(false);
