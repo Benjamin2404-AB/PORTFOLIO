@@ -10,15 +10,13 @@ function Home(){
                     Hi! I am a <span>Developer.</span>
                 </h1>
                 <p className='textpara'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Qui aliquam reiciendis velit doloribus magni recusandae 
-                    id earum maiores? Aut impedit debitis dolores excepturi 
-                    eum voluptas iusto eos perferendis molestiae.
-                    Assumenda fugiat modi natus optio laudantium 
-                    sunt beatae molestiae autem ratione aperiam omnis
-                    dignissimos, facere perspiciatis magni ab consequatur i
-                     psa facilis voluptatem quia dolorem rerum! Nam exercitationem ipsa
-                    laudantium voluptas.
+                    I am Benjamin Appiah-Boadu, A second year Computer Engineering student at 
+                    Kwame Nkrumah University of Science and Technology. 
+                    I am passionate about a lot of disciplines . I am into graphic designing ,
+                    video editing, UI and UX  designs as well as programming. 
+                    In terms of programming I am currently striving to improve skills in 
+                    Python , JavaScript , React and C++ 
+                    
                 </p>
                 <div className="card">HELLO THERE</div>
 
