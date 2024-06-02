@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import {Outlet, Link } from 'react-router-dom';
 import '../Styles/NavBar.css'
 import CloseIcon from '@mui/icons-material/Close';
 import ReorderIcon from '@mui/icons-material/Reorder';
@@ -22,9 +22,9 @@ function Navbar(){
                         <div className="tabs" id={toggled ? "open" : "closed" }>
                             
                             <li>
-                                <Link to="#"><ul>Home</ul></Link>
-                                <Link  to="#secondpart"><ul>About</ul></Link>
-                                <Link to="#"><ul>Projects</ul></Link>
+                                <Link to="/"><ul>Home</ul></Link>
+                                <Link  to="#"><ul>About</ul></Link>
+                                <Link to="/projects"><ul>Projects</ul></Link>
                                 <Link to="#"><ul>Contact</ul></Link>
                             </li>
                             
@@ -41,7 +41,7 @@ function Navbar(){
 
                 </nav>
                 
-                
+                <Outlet/>
 
             </div>
             

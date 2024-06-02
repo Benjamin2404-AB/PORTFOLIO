@@ -1,0 +1,129 @@
+
+.foot1{
+
+    background-color: rgba(21, 21, 21, 0.9);
+    height: 400px;
+    margin-top: -100px;
+  
+
+}
+
+.foot1 li{
+    list-style: none;
+    list-style-type:none;
+    background-color: transparent;
+    margin-left: 200px;
+    position: relative;
+    transform: translateY(80px);
+    background-color:transparent;
+    width:200px;
+
+    
+}
+
+.foot1 li ul{
+
+    list-style: none;
+    list-style-type:none;
+    display: block;
+    
+    text-decoration: none;
+    padding-top:20px ;
+    font: 15px Poppins;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.foot1 li ul::after{
+    content: "";
+    position:absolute;
+    background-color: aqua;
+    margin:2px 2px;
+    width:0px;
+    height:4px;
+    color: #407c87;
+    display: block;
+    
+}
+.foot1 li ul:hover{
+ 
+    color: aqua;
+    transition:ease-in 0.7s; 
+    
+}
+.foot1 li ul:hover::after{
+    width:50px;
+    color: aqua;
+    transition:ease-in 0.7s; 
+    
+    
+}
+.foot1 input{
+
+    width:280px;
+    height:45px;
+    border:none;
+    border-radius: 5px;
+    font: 500px;
+    font-family:Poppins ;
+    color:Black;
+    background-color:white;
+    float:right;
+    margin-right:450px;
+    margin-top: -50px;
+    padding: 2px 4px;
+    z-index: 1000;
+}
+.foot1 h6{
+    font-size:300;
+    font-family: Poppins;
+    
+    transform: translate(-740px,-100px);
+   
+
+}
+
+@media only screen and (max-width:450px){
+
+    .foot1{
+
+        background-color: rgba(21, 21, 21, 0.9);
+        height: 600px;
+        margin-top: -600px;
+        overflow-x: hidden;
+    
+    }
+    .foot1 li{
+        
+        margin-left: 30px;
+       
+        
+    }
+    .foot1 input{
+        width:240px;
+        height:30px;
+        border:none;
+        border-radius: 5px;
+        font: 500px;
+        font-family:Poppins ;
+        color:white;
+        position: relative;
+        transform: translate(60px,200px);
+        background-color:white;
+        margin-right:450px;
+        float:none;
+
+    }
+    .foot1 h6{
+       
+        transform: translate(60px,200px);
+    }
+    
+    .Reach{
+        float: none;
+        
+    }
+    
+
+}

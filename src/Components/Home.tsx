@@ -1,5 +1,6 @@
 import '../Styles/Home.css'
 import Skill from './Skills';
+import Bottom from './Footers';
 function Home(){
 
     return(
@@ -15,14 +16,18 @@ function Home(){
                     I am passionate about a lot of disciplines . I am into graphic designing ,
                     video editing, UI and UX  designs as well as programming. 
                     In terms of programming I am currently striving to improve skills in 
-                    Python , JavaScript , React and C++ 
+                    Python , JavaScript , React and C++ .
                     
                 </p>
                 <div className="card">HELLO THERE</div>
 
                 <Skill/>
+                <Bottom/>
             </section>
             
+            
+            
+           
             
         
         
