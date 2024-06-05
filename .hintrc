@@ -13,6 +13,7 @@
     "axe/parsing": "off",
     "no-inline-styles": "off",
     "axe/text-alternatives": "off",
-    "button-type": "off"
+    "button-type": "off",
+    "axe/name-role-value": "off"
   }
 }

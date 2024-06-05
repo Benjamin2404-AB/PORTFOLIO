@@ -82,6 +82,7 @@ nav button{
         background-color: #1b2223;
         overflow-x: hidden;
         position: fixed;
+        overflow: hidden;
        
 
     }

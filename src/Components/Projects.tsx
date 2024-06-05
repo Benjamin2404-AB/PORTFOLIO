@@ -4,6 +4,8 @@ import '../Styles/Projects.css'
 //import { useGSAP } from '@gsap/react';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 import { useEffect } from 'react';
+import ProjCards from './ProjCards';
+import Bottom from './Footers';
 function Projects() {
     //const python = document.querySelector(".python");
    
@@ -17,7 +19,7 @@ function Projects() {
                 gsap.to(python,{
                     scrollTrigger:{
                         trigger: python,
-                        start:"20px 80%",
+                        start:"200px 80%",
                         
                         markers:true,
                         toggleActions: "restart none reverse none",
@@ -36,26 +38,22 @@ function Projects() {
 },[]);
 
 
+
   return(
         <>
+           <div>
+
+                <ProjCards>
+
+                </ProjCards>
+                
+
+           </div>
+            
+
+
            
-            <div className="C">
-                <h1>hello</h1>
-                <p>Lorem Ipsum</p>
-            </div>
-           
-            <div className="JS">
-                <h1>hel</h1>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div className="2JS">
-                <h1>hello</h1>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div ref={head_ref} className="python">
-                <h1>hello hjk</h1>
-                <p>Lorem Ipsum</p>
-            </div>
+            
         </>
 
   );
