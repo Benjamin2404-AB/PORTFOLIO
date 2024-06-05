@@ -5,7 +5,7 @@ import '../Styles/Projects.css'
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 import { useEffect } from 'react';
 import ProjCards from './ProjCards';
-import Bottom from './Footers';
+//import Bottom from './Footers';
 function Projects() {
     //const python = document.querySelector(".python");
    
