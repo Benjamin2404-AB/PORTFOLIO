@@ -10,6 +10,7 @@
     border:2px solid white;
     margin:10px 5px 10px 5px;
     background-size: contain;
+    transform: skewY(12);
 
 }
 
@@ -35,7 +36,7 @@ button:hover{
     
 }
 
-p{
+.textCards{
     width:360px;
     text-align: center;
     display: block;
