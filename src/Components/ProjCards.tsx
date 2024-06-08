@@ -60,7 +60,7 @@ function ProjCards() {
       {Projs.map((p)=>(
 
         <>
-          <section>
+          <section key={p.id}>
             <div className="projdon" style={{backgroundImage: `linear-gradient(to top ,rgba(0,0,0,0.98),rgba(0,0,0,0.5)),url(${p.imgPath})`}}
               ref={head_ref}>
                  
