@@ -12,7 +12,7 @@ function ProjCards() {
 
     
   const head_ref = useRef(null);
-  const python = head_ref.current;
+  //const python = head_ref.current;
 
   useLayoutEffect(()=>{
       
