@@ -21,28 +21,29 @@ function ProjCards() {
           let tl = gsap.timeline({
             scrollTrigger:{
               trigger:'.projdon',
-              start:"300px 90%",
-              end: "800px 80%",
-              markers:true,
+              start:"80px 90%",
+              end: "800px 100%",
+              markers:false,
               scrub:3,
-              toggleActions: " none pause none play",
+              toggleActions: " none play none play",
             }
             });
             tl.from('.projdon',{
               ease:"power3.inOut",
-              duration:7,
+              duration:10,
+              opacity:0,
               
-              x:50,
-              y:30,
-              skewY:13,
+              x:0,
+              y:60,
+              
           });
           tl.to('.projdon',{
             ease:"power3.inOut",
-            duration:7,
-            
-            x:0,
+            duration:5,
+            opacity:1,
+            x:20,
             y:0,
-            skewY:0,
+            transform:400,
         });
               
 

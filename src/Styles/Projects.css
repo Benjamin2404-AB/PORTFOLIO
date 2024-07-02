@@ -26,6 +26,7 @@ span{
         width:300px;
         max-width: 300px;
         margin-top: 300px;
+        margin-left: 50px;
     }
     .ltext{
         font-family: Poppins;
@@ -33,6 +34,7 @@ span{
        
         max-width: 200px;
         margin-top: 10px;
+        margin-right: 60px;
     }
 
 }

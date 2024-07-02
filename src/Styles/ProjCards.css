@@ -8,9 +8,10 @@
     background-color: rgba(0, 0, 0, 0.192);
     border-radius: 5px;
     border:2px solid white;
-    margin:10px 5px 10px 5px;
+    margin:0px 0px 0px 5px;
     background-size: contain;
     transform: skewY(12);
+
 
 }
 
@@ -66,9 +67,10 @@ button:hover{
     .projdon{
         margin-left: 10px;
         margin-top: 90px;
-        width:350px;
+        width:300px;
         height:280px;
         transform: translateX(30px);
+        
         
     
     }
@@ -77,4 +79,12 @@ button:hover{
         height:50px;
         margin-top: 10px;
     }
+    .textCards{
+        width:260px;
+        text-align: center;
+        display: block;
+        margin:0 auto;
+        margin-top: 30px;
+    }
+    
 }
