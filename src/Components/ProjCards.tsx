@@ -22,7 +22,7 @@ function ProjCards() {
             scrollTrigger:{
               trigger:'.projdon',
               start:"80px 90%",
-              end: "800px 100%",
+              end: "800px 80%",
               markers:false,
               scrub:3,
               toggleActions: " none play none play",
@@ -62,7 +62,7 @@ function ProjCards() {
 
         <div key={index}>
           <section >
-            <div className="projdon" style={{backgroundImage: `linear-gradient(to top ,rgba(0,0,0,0.98),rgba(0,0,0,0.5)),url(${p.imgPath})`}}
+            <div className="projdon" style={{backgroundImage: `linear-gradient(to top ,rgba(0,0,0,0.99),rgba(0,0,0,0.6)),url(${p.imgPath})`}}
               ref={head_ref}>
                  
                  <h3 >

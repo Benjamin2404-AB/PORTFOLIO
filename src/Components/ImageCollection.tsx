@@ -1,9 +1,10 @@
 import pytImg from '../assets/pyt.gif'
+import pytImg2 from '../assets/epl.jpeg'
 export  const  Projs = [
 
 {
     label:"Data Analysis - 2018 EPL DATA",
-    imgPath:pytImg,
+    imgPath:pytImg2,
     link: "https://github.com/Benjamin2404-AB/PYTHON-PROJECTS",
     text:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
     id:1,

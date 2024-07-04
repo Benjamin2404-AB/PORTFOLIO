@@ -17,10 +17,11 @@ function Projects() {
                     Welcome to my <span>projects</span> . 
                 </h1>
                 <p className='ltext'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Veniam reiciendis debitis saepe 
-                    maxime beatae a ut quae aperiam labore velit dolores ipsa 
-                    optio natus dignissimos, rem harum consequatur in quia!
+                    I have projects which span diverse programming
+                    languages from Python , JavaScript and React 
+                    The python projects include a TODO list with Tkinter , an automated email 
+                    system and DATA analysis with Numpy, matplotlib and Jupyter.
+                    This Portfolio website is a project under React
                     
                 </p>
 
