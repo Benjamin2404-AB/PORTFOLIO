@@ -22,7 +22,7 @@ function Home(){
                 <div className="card">HELLO THERE</div>
 
                 <Skill/>
-                <Bottom/>
+                <Bottom id = "foot"/>
             </section>
             
             

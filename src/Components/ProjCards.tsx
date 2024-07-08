@@ -21,7 +21,7 @@ function ProjCards() {
           let tl = gsap.timeline({
             scrollTrigger:{
               trigger:'.projdon',
-              start:"80px 90%",
+              start:"90px 90%",
               end: "800px 80%",
               markers:false,
               scrub:3,
@@ -33,17 +33,18 @@ function ProjCards() {
               duration:10,
               opacity:0,
               
-              x:0,
+              x:10,
               y:60,
               
           });
           tl.to('.projdon',{
-            ease:"power3.inOut",
+            //ease:"power3.inOut",
+            ease:"expo.out",
             duration:5,
             opacity:1,
-            x:20,
+            x:10,
             y:0,
-            transform:400,
+            
         });
               
 
@@ -60,7 +61,7 @@ function ProjCards() {
     
       {Projs.map((p,index)=>(
 
-        <div key={index}>
+        <div key={index} className="hj" >
           <section >
             <div className="projdon" style={{backgroundImage: `linear-gradient(to top ,rgba(0,0,0,0.99),rgba(0,0,0,0.6)),url(${p.imgPath})`}}
               ref={head_ref}>

@@ -1,10 +1,10 @@
 import '../Styles/Footer.css'
 import { Link } from 'react-router-dom';
-function Bottom () {
+function Bottom ({id}:{id:string}) {
   
     return(
         <>
-            <div className="foot1">
+            <div className="foot1" id={id}>
                 <li>
                      <Link to="#"><ul>Home</ul></Link>
                      <Link  to="#secondpart"><ul>About</ul></Link>

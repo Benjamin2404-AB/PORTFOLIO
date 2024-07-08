@@ -19,7 +19,7 @@ export  const  Projs = [
 },
 
 {
-    label:"",
+    label:"Data Analysis - 2018 EPL DATA",
     imgPath:pytImg,
     link: "X.com",
     text:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
