@@ -16,7 +16,7 @@ function Navbar(){
     }
     return(
         <>
-            <div className='navBar' >
+            <div className='navBar'  >
 
                 <nav id = {toggled ? "navopen" : ""   }>
                         <div className="tabs" id={toggled ? "open" : "closed" }>

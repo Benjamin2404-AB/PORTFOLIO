@@ -1,6 +1,8 @@
 body{
     margin:0;
     padding: 0;
-    background-color: #252e2f;
+    /*background-color: #252e2f;*/
+    background: rgb(32,191,223);
+    background: linear-gradient(90deg, rgba(32,191,223,1) 0%, rgba(19,71,78,1) 50%, rgba(2,0,36,1) 100%);
     
 }
