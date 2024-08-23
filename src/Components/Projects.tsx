@@ -21,12 +21,17 @@ function Projects() {
                     <p className='ltext'>
 
 
+
+
+
                         I have worked on a variety of projects spanning multiple programming languages, 
-                        including Python, JavaScript, and React.
+                        including Python, JavaScript,React and C++.
                         My Python projects encompass a TODO list application using Tkinter,
                         an automated email system, and data analysis utilizing Numpy, Matplotlib,
                         and Jupyter Notebook. 
-                        Additionally, I have developed a portfolio website using React.
+                        Additionally, I have developed a portfolio website using React 
+                        and applied my knowledge of C++'s Object-Oriented Programming (OOP) paradigm to design a hospital OPD Management System.
+                        I've also honed my UI/UX skills by creating several designs using Figma
                         
                    
 
