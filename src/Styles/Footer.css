@@ -88,48 +88,6 @@
 
 }
 
-.contact-form h6 {
-    font-size:12px;
-    font-weight: 500;
-    font-family: Poppins;
-    position: relative;
-    
-    
-    transform: translate(0px,0px);
-   
-    
-
-    
-}
-.contact-form{
-    float:right;
-    margin-right:450px;
-    margin-top: -180px;
-}
-.contact-form input{
-    margin-top: -30px;
-    display: list-item;
-    width:280px;
-    height:45px;
-    
-    
-}
-.na{
-    margin-bottom:-10px;
-    display:flex ;
-    flex-direction: column;
-}
-
-.ma{
-    margin-bottom:-10px;
-    display:flex ;
-    flex-direction: column;
-}
-.ta{
-    margin-bottom:-10px;
-    display:flex ;
-    flex-direction: column;
-}
 
 
 
@@ -178,8 +136,10 @@
     
     .Reach{
         float: none;
+        display: none;
         
     }
+    
     
 
 }

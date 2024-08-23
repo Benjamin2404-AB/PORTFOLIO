@@ -60,7 +60,7 @@ function ProjCards() {
     <>
     
       {Projs.map((p,index)=>(
-
+      
         <div key={index} className="hj" >
           <section >
             <div className="projdon" style={{backgroundImage: `linear-gradient(to top ,rgba(0,0,0,0.99),rgba(0,0,0,0.6)),url(${p.imgPath})`}}
@@ -84,6 +84,7 @@ function ProjCards() {
 
 
         </div>
+        
         
 
 

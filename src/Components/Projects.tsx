@@ -34,10 +34,12 @@ function Projects() {
 
                 </div>
                 
+                <div className="od">
+                    <ProjCards/>
 
-                <ProjCards>
 
-                </ProjCards>
+                </div>
+           
 
                 
                 

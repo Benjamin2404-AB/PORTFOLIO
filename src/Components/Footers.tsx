@@ -1,7 +1,13 @@
 import '../Styles/Footer.css'
 import { Link } from 'react-router-dom';
+//import { sendForm,init } from '@emailjs/browser';
+//import emailjs from '@emailjs/browser';
+import { ContactUs } from '../Components/ContactUs';
+
 function Bottom ({id}:{id:string}) {
-  
+
+
+      
     return(
         <>
             <div className="foot1" id={id}>
@@ -12,31 +18,11 @@ function Bottom ({id}:{id:string}) {
                      <Link to="#"><ul>Contact</ul></Link>
                 </li>
                 <h6 className='Reach'>Reach out to us </h6>
-                <div className="contact-form">
+                <ContactUs></ContactUs>
                 
-                    <div className="na">
 
-                        <h6>Your Name</h6>
-                        <input type='text' placeholder='Name' />
-
-                    </div>
+                
                    
-                    
-                    <div className="ma">
-                        <h6>Your Email Address</h6>
-                        <input type='email' placeholder='Email Address'/>
-                    </div>
-                  
-                    
-                    <div className="ta">
-                        <h6>Message</h6>
-                        <input type='text' placeholder='Send us a mail'/>
-                    </div>
-                    
-                    
-
-                </div>
-               
 
             </div>
          
