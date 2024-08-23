@@ -1,5 +1,6 @@
 import pytImg from '../assets/pyt.gif'
 import pytImg2 from '../assets/epl.jpeg'
+import pytImg3 from '../assets/HPOD.mp4'
 export  const  Projs = [
 
 {
@@ -26,10 +27,10 @@ export  const  Projs = [
     id:3,
 },
 {
-    label:"C++",
-    imgPath:pytImg,
-    link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    label:"OPD MANAGEMENT ",
+    imgPath:pytImg3,
+    link: "https://github.com/Benjamin2404-AB/PROJECTS/tree/master",
+    text:" Utilized QT Creator and C++ (OOP paradigm) to develop an OPD Management APP ",
     id:4,
 },
 {
