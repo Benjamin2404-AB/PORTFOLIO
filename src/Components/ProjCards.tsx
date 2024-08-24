@@ -10,26 +10,31 @@ import { useLayoutEffect } from 'react';
 function ProjCards() {
 
 
+
+
+
+
     
   const head_ref = useRef(null);
   //const python = head_ref.current;
-
+  let sections = document.querySelectorAll(".projdon");
   useLayoutEffect(()=>{
-      
-          gsap.registerPlugin(ScrollTrigger);
+      if(window.innerWidth >= 1024){
+        gsap.registerPlugin(ScrollTrigger);
           let ctx = gsap.context(() => {
           let tl = gsap.timeline({
             scrollTrigger:{
               trigger:'.projdon',
-              start:"90px 90%",
-              end: "800px 80%",
-              markers:false,
+              start:"5px 30%",
+              end: "900px 100%",
+              markers:true,
               scrub:3,
               toggleActions: " none play none play",
             }
             });
             tl.from('.projdon',{
-              ease:"power3.inOut",
+              xPercent:0,
+              ease:"power3",
               duration:10,
               opacity:0,
               
@@ -39,11 +44,11 @@ function ProjCards() {
           });
           tl.to('.projdon',{
             //ease:"power3.inOut",
-            ease:"expo.out",
-            duration:5,
+            xPercent: -100,
+            ease:"power3",
+            duration:20,
             opacity:1,
-            x:10,
-            y:0,
+           
             
         });
               
@@ -51,9 +56,52 @@ function ProjCards() {
           });
 
           return () => ctx.revert();
+
+
+
+      }
+      
+      if(window.innerWidth <= 450){
+        gsap.registerPlugin(ScrollTrigger);
+        let ctx = gsap.context(() => {
+        let tl = gsap.timeline({
+          scrollTrigger:{
+            trigger:'.projdon',
+            start:"top top",
+            end: "bottom+=500px",
+            markers:false,
+            scrub:5,
+            toggleActions: "play pause resume none",
+          }
+          });
+          tl.from('.projdon',{
+            ease:"power3.inOut",
+            duration:1.5,
+            opacity:0,
+            
+            x:0,
+            y:10,
+            
+        });
+        tl.to('.projdon',{
+          //ease:"power3.inOut",
+          ease:"expo.inOut",
+          duration:1.5,
+          opacity:1,
+          x:-200,
+          y:0,
+          
+      });
+            
+
+        });
+
+        return () => ctx.revert();
+
+      }
+          
 },[]);
-
-
+  
 
 
   return (

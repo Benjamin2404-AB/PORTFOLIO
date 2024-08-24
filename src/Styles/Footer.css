@@ -6,6 +6,7 @@
     margin-top: 700px;
     position: relative;
     width:99vw;
+   
 
   
 
@@ -97,10 +98,12 @@
     .foot1{
 
         background-color: rgba(21, 21, 21, 0.9);
-        height: 600px;
-        margin-top: 500px;
+        height: 900px;
+        margin-top: 600px;
         overflow-x: hidden;
-        width:99.5vw;
+        width:100%;
+        transform: translateY(23px);
+        z-index: 1;
         
     
     }

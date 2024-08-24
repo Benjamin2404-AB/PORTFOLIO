@@ -39,11 +39,7 @@ function Projects() {
 
                 </div>
                 
-                <div className="od">
-                    <ProjCards/>
-
-
-                </div>
+                
            
 
                 
@@ -51,6 +47,7 @@ function Projects() {
                 
 
            </div>
+           <div className="od"><ProjCards/></div>
 
            <Bottom id="foot3"/>
             

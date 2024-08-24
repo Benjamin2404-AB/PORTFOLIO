@@ -1,6 +1,6 @@
 import pytImg from '../assets/pyt.gif'
 import pytImg2 from '../assets/epl.jpeg'
-import pytImg3 from '../assets/HPOD.mp4'
+//import pytImg3 from '../assets/HPOD.mp4'
 export  const  Projs = [
 
 {
@@ -28,7 +28,7 @@ export  const  Projs = [
 },
 {
     label:"OPD MANAGEMENT ",
-    imgPath:pytImg3,
+    imgPath:pytImg,
     link: "https://github.com/Benjamin2404-AB/PROJECTS/tree/master",
     text:" Utilized QT Creator and C++ (OOP paradigm) to develop an OPD Management APP ",
     id:4,
@@ -46,9 +46,58 @@ export  const  Projs = [
     imgPath:pytImg,
     link: "X.com",
     text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
-    id:5,
+    id:6,
 
 },
+{
+    label:"GUI APPLICATION-TO-DO-list",
+    imgPath:pytImg,
+    link: "X.com",
+    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    id:7,
+
+},
+{
+    label:"GUI APPLICATION-TO-DO-list",
+    imgPath:pytImg,
+    link: "X.com",
+    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    id:7,
+
+},
+{
+    label:"GUI APPLICATION-TO-DO-list",
+    imgPath:pytImg,
+    link: "X.com",
+    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    id:7,
+
+},
+{
+    label:"GUI APPLICATION-TO-DO-list",
+    imgPath:pytImg,
+    link: "X.com",
+    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    id:7,
+
+},
+{
+    label:"GUI APPLICATION-TO-DO-list",
+    imgPath:pytImg,
+    link: "X.com",
+    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    id:7,
+
+},
+{
+    label:"GUI APPLICATION-TO-DO-list",
+    imgPath:pytImg,
+    link: "X.com",
+    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    id:7,
+
+},
+
 
 
 

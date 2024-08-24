@@ -2,7 +2,8 @@
 .projdon{
    position: relative;
     
-    width:400px;
+    /*width:calc(((100 / 3)*500) - 20px);*/
+    width:400;
     height:300px;
     background-color: rgba(0, 0, 0, 0.192);
     border-radius: 5px;
@@ -10,7 +11,7 @@
     margin-left: 0px;
    
     background-size: contain;
- 
+    
   
 
 
@@ -20,9 +21,10 @@
     display: inline-block;
     flex-direction: row;
     flex: 1;
-    margin:15px 10px;
+    flex-wrap: nowrap;
+    margin:15px 25px;
     position: relative;
-    transform: translateY(600px);
+
 }
 
 .vp{
@@ -84,7 +86,7 @@ button:hover{
         height:280px;
         transform: translateX(30px);
         
-        
+        overflow-x: hidden;
     
     }
     .vp{
@@ -100,12 +102,12 @@ button:hover{
         margin-top: 30px;
     }
     .hj{
-        display: block;
-        flex-direction: none;
-        flex: none;
-        margin:none;
+        display: inline-block;
+        flex-direction: row;
+        flex: 1;
+        flex-wrap: nowrap;
+        margin:10px 5px;
         position: relative;
-        transform: translateY(500px);
     }
     
 }

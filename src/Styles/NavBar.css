@@ -16,7 +16,7 @@ nav{
     top:0;
     left:0;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
    
    
 }
@@ -89,7 +89,7 @@ nav button{
     }
     #navopen{
         height:100vh;
-        z-index: 1;
+        z-index: 1000;
         background-color: rgba(27, 34, 35, 0.683);
         overflow-x: hidden;
         overflow-y: hidden;
