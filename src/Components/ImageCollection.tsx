@@ -36,7 +36,7 @@ export  const  Projs = [
 },
 {
     label:"ROKU TV VIDEO AD PROJECT",
-    imgPath:pytImg,
+    imgPath:pytImg3,
     link: "https://drive.google.com/drive/folders/1t53avTr5iCmKM840_lsD0G0nZYB_PiPs?usp=sharing",
     text:"Bringing Entertainment Home – My Video Ad for Roku TV by Absonco Enterprise ",
     id:5,

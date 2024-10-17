@@ -17,7 +17,7 @@ function ProjCards() {
     
   const head_ref = useRef(null);
   //const python = head_ref.current;
-  let sections = document.querySelectorAll(".projdon");
+  //let sections = document.querySelectorAll(".projdon");
   
   useLayoutEffect(()=>{
     if (window.innerWidth >= 1024) {
