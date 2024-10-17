@@ -1,5 +1,6 @@
 import pytImg from '../assets/pyt.gif'
 import pytImg2 from '../assets/epl.jpeg'
+import pytImg3 from '../assets/Promovid.png'
 //import pytImg3 from '../assets/HPOD.mp4'
 export  const  Projs = [
 
@@ -34,10 +35,10 @@ export  const  Projs = [
     id:4,
 },
 {
-    label:"GUI APPLICATION-TO-DO-list",
+    label:"ROKU TV VIDEO AD PROJECT",
     imgPath:pytImg,
-    link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    link: "https://drive.google.com/drive/folders/1t53avTr5iCmKM840_lsD0G0nZYB_PiPs?usp=sharing",
+    text:"Bringing Entertainment Home – My Video Ad for Roku TV by Absonco Enterprise ",
     id:5,
      
 },
@@ -54,49 +55,11 @@ export  const  Projs = [
     imgPath:pytImg,
     link: "X.com",
     text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
-    id:7,
+    id:6,
 
 },
-{
-    label:"GUI APPLICATION-TO-DO-list",
-    imgPath:pytImg,
-    link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
-    id:7,
 
-},
-{
-    label:"GUI APPLICATION-TO-DO-list",
-    imgPath:pytImg,
-    link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
-    id:7,
 
-},
-{
-    label:"GUI APPLICATION-TO-DO-list",
-    imgPath:pytImg,
-    link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
-    id:7,
-
-},
-{
-    label:"GUI APPLICATION-TO-DO-list",
-    imgPath:pytImg,
-    link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
-    id:7,
-
-},
-{
-    label:"GUI APPLICATION-TO-DO-list",
-    imgPath:pytImg,
-    link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
-    id:7,
-
-},
 
 
 

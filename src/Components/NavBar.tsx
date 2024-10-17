@@ -9,7 +9,7 @@ import "@fontsource/poppins/600.css";
 
 
 function Navbar(){
-    const [toggled,setToggled] = useState(false);
+    const [toggled,setToggled] = useState(true);
 
     const handleToggledNavbar = () => {
         setToggled(!toggled)

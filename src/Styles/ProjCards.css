@@ -3,7 +3,7 @@
    position: relative;
     
     /*width:calc(((100 / 3)*500) - 20px);*/
-    width:400;
+    width:400px;
     height:300px;
     background-color: rgba(0, 0, 0, 0.192);
     border-radius: 5px;
@@ -12,21 +12,25 @@
    
     background-size: contain;
     
-  
-
 
 }
 
 .hj{
     display: inline-block;
-    flex-direction: row;
     flex: 1;
-    flex-wrap: nowrap;
+    flex-wrap: 1;
+    flex-direction: row;
     margin:15px 25px;
     position: relative;
 
 }
-
+.ProjectHeading{
+    width:360px;
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    margin-top: 40px;
+}
 .vp{
     width: 140px;
     height:50px;
@@ -57,7 +61,8 @@ button:hover{
     text-align: center;
     display: block;
     margin:0 auto;
-    margin-top: 60px;
+    margin-top: 20px;
+  
 }
 
 @media only screen and (max-width:450px){

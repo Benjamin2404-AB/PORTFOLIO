@@ -51,9 +51,10 @@ span{
     justify-content: center;
     align-items: center; 
     height:1000px;
-    width: 150%;
+    width: 90%;
     margin-top: 30px;
     overflow:hidden;
+    margin-left: 10%;
     
 
    
