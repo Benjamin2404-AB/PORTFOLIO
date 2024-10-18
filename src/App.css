@@ -5,6 +5,7 @@ body{
     background: rgb(32,191,223);
     background: linear-gradient(90deg, rgba(32,191,223,1) 0%, rgba(19,71,78,1) 50%, rgba(2,0,36,1) 100%);
     overflow-x: hidden;
+    height: 190vh;
 }
 
 @media only screen and (max-width:450px){

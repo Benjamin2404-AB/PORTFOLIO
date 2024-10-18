@@ -3,11 +3,13 @@ import './App.css'
 import Navbar from './Components/NavBar'
 import Home from './Components/Home';
 import Projects from './Components/Projects';
+import About from './Components/About';
 
 
 import "@fontsource/poppins/700.css";
 import "@fontsource/poppins/800.css";
 import "@fontsource/poppins/900.css";
+
 
 function App() {
  
@@ -19,6 +21,7 @@ function App() {
 
         <Routes>
           <Route  path='/' element={<Home/>} />
+          <Route  path='/about' element={<About/>} />
           <Route path='/projects' element = {<Projects/>}/>
       
           

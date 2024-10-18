@@ -46,7 +46,7 @@ export  const  Projs = [
     label:"NAVGO FIGMA PROJECT",
     imgPath:pytImg,
     link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
+    text:"I designed the UI of a proposed app to address a challenge in my CENG project using Figma." ,
     id:6,
 
 },

@@ -15,7 +15,7 @@ export const Languages =[
 
     {
         id:2,
-        img: pyImg7
+        img: pyImg9
     
     
     },
@@ -31,14 +31,14 @@ export const Languages =[
     
     {
         id:4,
-        img: pyImg9
+        img: pyImg10
     
     
     },
       
     {
         id:5,
-        img: pyImg10
+        img: pyImg7
     
     
     },

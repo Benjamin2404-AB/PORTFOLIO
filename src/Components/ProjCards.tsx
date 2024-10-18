@@ -21,10 +21,10 @@ function ProjCards() {
           let tl = gsap.timeline({
             scrollTrigger:{
               trigger:'.projdon',
-              start:"top 10%",
+              start:"100px 10%",
               end: "1000px 100%",
-              markers:true,
-              scrub:1,
+              markers:false,
+              scrub:6,
               toggleActions: " play none none none",
             }
             });
@@ -56,42 +56,38 @@ function ProjCards() {
 
       }
       
-      if(window.innerWidth <= 450){
+      if (window.innerWidth <= 450) {
         gsap.registerPlugin(ScrollTrigger);
+    
         let ctx = gsap.context(() => {
-        let tl = gsap.timeline({
-          scrollTrigger:{
-            trigger:'.projdon',
-            start:"top top",
-            end: "bottom+=500px",
-            markers:false,
-            scrub:5,
-            toggleActions: "play pause resume none",
-          }
-          });
-          tl.from('.projdon',{
-            ease:"power3.inOut",
-            duration:1.5,
-            opacity:0,
             
-            x:0,
-            y:10,
-            
+            let tl = gsap.timeline({
+                repeat: -1, 
+                paused: false 
+            });
+    
+            tl.fromTo('.projdon', 
+                {
+                    xPercent: 0, 
+                }, 
+                {
+                    xPercent: -370,  
+                    duration: 20, 
+                    ease: "none", 
+                    repeat: -1,   
+                    repeatDelay: 0 
+                }
+            );
         });
-        tl.to('.projdon',{
-          //ease:"power3.inOut",
-          ease:"expo.inOut",
-          duration:1.5,
-          opacity:1,
-          x:-200,
-          y:0,
-          
-      });
-            
-        });
+    
         return () => ctx.revert();
-      }
-          
+    }
+    
+        
+   
+        
+
+    
 },[]);
   
   

@@ -45,23 +45,27 @@
     font-size: 60px;
 }
 
-.ava  {
-    width:150px;
-    height:150px;
-    border-radius: 75px;
-    background-color: aqua;
+.ava {
+    width: 180px; 
+    height: 180px; 
+    border-radius: 50%; 
+    background-color: aqua; 
     position: relative;
-    top:-400px;
+    top:-440px;
     left:300px;
+    overflow: hidden;
 }
 
-.ava img{
-    width:150px;
-    height:150px;
-    border-radius: 75px;
-    background-image:linear-gradient(rgb(30, 31, 31),rgb(16, 17, 17))
-    
+.ava img {
+
+    height: 100%; 
+    width: 100%;
+    left: 170px;
+    border-radius: 50%; 
+    object-fit: cover; /* This ensures the image covers the container without distortion */
+    object-position: top;
 }
+/*
 .ava::after{
     content: "";
     position: absolute;
@@ -71,8 +75,8 @@
     left:0px;
     top:0px;
 	/*filter: blur(25px);*/
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgb(16, 17, 17,.4)) ;
-}
+    /*background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgb(16, 17, 17,.4)) ;
+}*/
 .attributes{
     margin-top: -500px;
     margin-right: 150px;

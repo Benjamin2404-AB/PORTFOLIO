@@ -34,6 +34,13 @@ function Projects() {
             x: gsap.utils.wrap((-50+window.innerWidth), 0)
           }              
         });
+        gsap.to('.pics',{
+            ease: "none",     
+            duration: 5,             
+            repeat: -1,               
+            
+            opacity: 0.5, 
+        })
         gsap.to('.pics', {
           xPercent:200,           
           ease: "none",     
@@ -53,7 +60,7 @@ function Projects() {
           trigger: '.skilPics',
           start: "-180px 20%",
           end: "20px 100%",
-          markers: true,
+          markers: false,
           onEnter: () => gsap.to('.pics', { opacity: 1 }), 
           onLeave: () => gsap.to('.pics', { opacity: 0.5 }) 
         });
@@ -107,11 +114,11 @@ function Projects() {
                 </div>
 
             ))}
-
+             
             </div>
          
 
-           <Bottom id="foot3"/>
+            <Bottom id="foot3"/>
             
 
 

@@ -21,7 +21,7 @@ background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(19,71,78,1) 35%, rgba(
 
  .skilPics{
     left: 35%;
-    top: 620px;
+    top: 900px;
     background: rgba(255,255,255,0.3);
     box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
     backdrop-filter: blur(4.5px);
@@ -69,7 +69,7 @@ span{
     
     flex: 1;
     z-index: 1;
-    transform: translateY(700px);
+    transform: translateY(1000px);
     justify-content: center;
     align-items: center; 
     height:1000px;
@@ -116,42 +116,68 @@ span{
 
     #foot3{
         margin-top:650px;
+
+ 
+        position: relative;
+        
     }
     body{
         background: linear-gradient(260deg, rgb(2, 0, 36) 0%, rgba(19,71,78,1) 25%, rgba(32,191,223,1) 100%);
-        overflow-x: hidden;
+        overflow-y: hidden;
+        height:90% ;
+        max-height: 290vh;
+        width: 100vw;
         
     }
     .od{
-        /*display: flex;
-        flex-wrap: wrap;
-        background-color: brown;
-        flex: 1;
-        padding: 10px 5px;
-        width: 400px;
-        height:400px;*/
-        display: inline-block;
-        flex-direction: row;
-        
-        flex: 1;
+        display:inline-block;
+       
+       
         z-index: 1;
-        transform: translateY(680px);
+        position: relative;
+        transform: translateY(140%);
         justify-content: center;
         align-items: center; 
-        height:2000px;
-        width: 200%;
-
-        
-        overflow:hidden;
-            
+        height:50vh;
+        width:1000px;
+    
+        margin-left: auto;
+        margin-right: auto;
         
    
-        
+        overflow: hidden;
     
        
     }
+    .pics{
+        width:30px;
+        height: 30px;
+        margin: 5px 10px;
+        overflow-y: hidden;
+      
+       
+    }
+    
+     .skilPics{
+        left: 4%;
+        transform: translateY(-270px);
+        background: rgba(255,255,255,0.3);
+        box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        border-radius: 10px;
+        width:30%;
+        height: 40px;
+        display: inline-flex;
+        position: relative;
+        overflow-y: hidden;
+
+        
+     }
     div .od{
-        overflow-x: hidden;
+        overflow-y: hidden;
+        display: inline-flex;
+       
     }
     
     

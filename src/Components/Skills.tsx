@@ -1,5 +1,6 @@
 import '../Styles/Skill.css'
 import Attributes from './Attributes';
+import ProfilePic from'../assets/of1.jpg'
 function Skill(){
 
     return(
@@ -19,7 +20,7 @@ function Skill(){
 
                     </p>
                     <div className="ava">
-                        <img src="avatar.jpg"/>
+                        <img src= {ProfilePic}/>
 
                     </div>
 

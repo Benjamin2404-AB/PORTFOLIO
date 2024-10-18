@@ -57,7 +57,7 @@
     color:#0EF6CC;
 }
 #foot{
-  margin-top: -130px;
+  margin-top: -10px;
 }
 
 
@@ -164,7 +164,10 @@
     margin-top: -100px;
 }
 #foot{
-  margin-top: -200px;
+  margin-top: 00px;
+  transform: translateY(-10%);
+  overflow-y: hidden;
+  position: relative;
 }
 .intro{
   background: linear-gradient(190deg, rgba(32,191,223,1) 0%, rgba(19,71,78,1) 50%, rgba(2,0,36,1) 100%);
