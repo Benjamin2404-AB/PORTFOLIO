@@ -10,11 +10,12 @@ function Skill(){
                     
                     <h1 className="name ">What <span>Skills </span>do  I possess?  </h1>
                     <p id="skil">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Qui aliquam reiciendis velit doloribus magni recusandae 
-                        id earum maiores? Aut impedit debitis dolores excepturi 
-                        eum voluptas iusto eos perferendis molestiae.
-                        Assumenda fugiat modi natus optio laudantium 
+                    I possess a diverse skill set gained from working on various projects across
+                    multiple programming languages, including Python, JavaScript, React, and C++.
+                    I am also proficient in the use of Microsoft Office Suite(Word,Excel,PowerPoint and Access), Adobe Photoshop,Illustrator
+                    Canva and Figma creating seamless designs of flyers, video promos and user interface
+                
+
 
                     </p>
                     <div className="ava">

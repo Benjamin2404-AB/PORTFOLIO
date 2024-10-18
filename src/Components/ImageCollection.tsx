@@ -43,21 +43,14 @@ export  const  Projs = [
      
 },
 {
-    label:"GUI APPLICATION-TO-DO-list",
+    label:"NAVGO FIGMA PROJECT",
     imgPath:pytImg,
     link: "X.com",
     text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
     id:6,
 
 },
-{
-    label:"GUI APPLICATION-TO-DO-list",
-    imgPath:pytImg,
-    link: "X.com",
-    text:" Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet aspernatur rerum nam ratione, ipsum quo provident? ",
-    id:6,
 
-},
 
 
 

@@ -11,62 +11,50 @@ function ProjCards() {
 
 
 
-
-
-
-    
   const head_ref = useRef(null);
   //const python = head_ref.current;
   //let sections = document.querySelectorAll(".projdon");
-  
   useLayoutEffect(()=>{
-    if (window.innerWidth >= 1024) {
-      
-      gsap.registerPlugin(ScrollTrigger);
-      let ctx = gsap.context(() => {
-    
-        
-        gsap.from('.projdon', {
-          xPercent: 0,           
-          ease: "none",     
-          duration: 10,             
-          repeat: -1,               
-          
-          opacity: 1 ,
-          modifiers: {
-            // Modifier function to reset the position once the element moves off-screen
-            x: gsap.utils.wrap(-(50 + window.innerWidth), 1)
-          }              
+      if(window.innerWidth >= 1024){
+        gsap.registerPlugin(ScrollTrigger);
+          let ctx = gsap.context(() => {
+          let tl = gsap.timeline({
+            scrollTrigger:{
+              trigger:'.projdon',
+              start:"top 10%",
+              end: "1000px 100%",
+              markers:true,
+              scrub:1,
+              toggleActions: " play none none none",
+            }
+            });
+            tl.from('.projdon',{
+              xPercent:-10,
+              y:-400,
+              ease:"power2",
+              duration:45,
+              opacity:0,
+
+          });
+          tl.to('.projdon',{
+            //ease:"power3.inOut",
+            xPercent: 5,
+            y:0,
+            ease:"power3",
+            duration:30,
+            opacity:1,
+           
+
         });
-        gsap.to('.projdon', {
-          xPercent:-320,           
-          ease: "none",     
-          duration: 20,             
-          repeat: -1,               
-          
-          opacity: 1 ,
-          modifiers: {
-            // Modifier function to reset the position once the element moves off-screen
-            x: gsap.utils.wrap(-(50 + window.innerWidth), 0)
-          }              
-        });
-        
-    
-        // ScrollTrigger only handles scroll-based effects, not the continuous animation
-        ScrollTrigger.create({
-          trigger: '.projdon',
-          start: "-180px 20%",
-          end: "900px 100%",
-          markers: true,
-          onEnter: () => gsap.to('.projdon', { opacity: 1 }), 
-          onLeave: () => gsap.to('.projdon', { opacity: 0.5 }) 
-        });
-        
-      });
-    
-      return () => ctx.revert();
-    }
-    
+
+
+          });
+
+          return () => ctx.revert();
+
+
+
+      }
       
       if(window.innerWidth <= 450){
         gsap.registerPlugin(ScrollTrigger);
@@ -76,8 +64,6 @@ function ProjCards() {
             trigger:'.projdon',
             start:"top top",
             end: "bottom+=500px",
-            
-
             markers:false,
             scrub:5,
             toggleActions: "play pause resume none",
@@ -87,8 +73,7 @@ function ProjCards() {
             ease:"power3.inOut",
             duration:1.5,
             opacity:0,
-            yoyo: true,
-            repeat:-1,
+            
             x:0,
             y:10,
             
@@ -98,21 +83,17 @@ function ProjCards() {
           ease:"expo.inOut",
           duration:1.5,
           opacity:1,
-          yoyo: true,
-          repeat:-1,
-          x:-100,
+          x:-200,
           y:0,
           
       });
             
-
         });
-
         return () => ctx.revert();
-
       }
           
 },[]);
+  
   
 
 
@@ -125,19 +106,21 @@ function ProjCards() {
           <section >
             <div className="projdon" style={{backgroundImage: `linear-gradient(to top ,rgba(0,0,0,0.99),rgba(0,0,0,0.6)),url(${p.imgPath})`}}
               ref={head_ref}>
+                 <div className="inner">
+                      <h3 className="ProjectHeading" >
+                          {p.label}
+                      </h3>
+                      <p className="textCards">
+                          {p.text}
+                      </p>
+                        
+                      <Link to= {p.link}>
+                          <button className="vp">
+                              View Project 
+                          </button>
+                      </Link>
+                 </div>
                  
-                 <h3 className="ProjectHeading" >
-                     {p.label}
-                 </h3>
-                 <p className="textCards">
-                     {p.text}
-                 </p>
-                   
-                 <Link to= {p.link}>
-                     <button className="vp">
-                         View Project 
-                     </button>
-                 </Link>
             </div>
 
           </section>

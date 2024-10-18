@@ -12,7 +12,7 @@ function Bottom ({id}:{id:string}) {
         <>
             <div className="foot1" id={id}>
                 <li>
-                     <Link to="#"><ul>Home</ul></Link>
+                     <Link to="/"><ul>Home</ul></Link>
                      <Link  to="#secondpart"><ul>About</ul></Link>
                      <Link to="#"><ul>Projects</ul></Link>
                      <Link to="#"><ul>Contact</ul></Link>
