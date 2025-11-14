@@ -1,0 +1,28 @@
+
+import './App.css'
+import LandingPage from './components/LandingPage'
+import './Styles/global.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
+function App() {
+  
+  
+
+  return (
+    <>
+      <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<LandingPage />} />
+      
+
+      </Routes>
+    
+      </BrowserRouter>
+      
+
+    </>
+  )
+}
+
+export default App
