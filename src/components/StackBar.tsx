@@ -5,7 +5,7 @@ import PR from '../assets/pr.png'
 
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+// import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { useRef } from 'react';
 
 
