@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Arrow from './Arrow';
+
 import TechCard from './TechCard';
 import { projects } from '../projects';
 import ProjectCard from './ProjectCard';
@@ -13,9 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function LandingPage() {
   const container = useRef<HTMLDivElement>(null);
   const aboutRef = useRef<HTMLDivElement>(null);
-  const techRef = useRef<HTMLDivElement>(null);
-const projectsRef = useRef<HTMLDivElement>(null);
-const experienceRef = useRef<HTMLDivElement>(null);
+
 
   const [isMobile, setIsMobile] = useState(false);
 
